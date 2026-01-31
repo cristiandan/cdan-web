@@ -4,10 +4,10 @@ import { Experiences } from "@/components/experiences";
 import { Flipper } from "@/components/flipper";
 import { Heading } from "@/components/heading";
 import { LandingBlogs } from "@/components/landing-blogs";
+import { Press } from "@/components/press";
 import { Projects } from "@/components/projects";
 import { Scales } from "@/components/scales";
 import { Subheading } from "@/components/subheading";
-import { Testimonials } from "@/components/testimonials";
 import { experience } from "@/constants/experience";
 import { projects } from "@/constants/projects";
 import Image from "next/image";
@@ -27,7 +27,7 @@ export default function Home() {
         <Projects projects={projects.slice(0, 3)} />
         <LandingBlogs />
         <Experiences experiences={experience} />
-        <Testimonials />
+        <Press />
         <CTA />
       </Container>
     </div>
