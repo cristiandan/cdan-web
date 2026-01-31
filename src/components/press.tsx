@@ -25,6 +25,13 @@ const pressItems = [
     icon: "💚",
   },
   {
+    title: "BBC Interview",
+    description: "Discussing fintech innovation and sustainability.",
+    source: "BBC",
+    href: "https://www.youtube.com/watch?v=FlXCRRrPuAs",
+    icon: "🎙️",
+  },
+  {
     title: "UK Net Zero Innovation",
     description: "Featured as a top UK climate-tech innovation case study.",
     source: "UK Government",

@@ -1,16 +1,17 @@
+import { AudienceRoutes } from "@/components/audience-routes";
 import { Container } from "@/components/container";
+import { CoreBullets } from "@/components/core-bullets";
 import { CTA } from "@/components/cta";
 import { Experiences } from "@/components/experiences";
 import { Flipper } from "@/components/flipper";
 import { Heading } from "@/components/heading";
-import { LandingBlogs } from "@/components/landing-blogs";
 import { Press } from "@/components/press";
 import { Projects } from "@/components/projects";
+import { ProofStrip } from "@/components/proof-strip";
 import { Scales } from "@/components/scales";
 import { Subheading } from "@/components/subheading";
 import { experience } from "@/constants/experience";
 import { projects } from "@/constants/projects";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -24,10 +25,28 @@ export default function Home() {
         <Subheading>
           I build fintech infrastructure and AI-enabled products—from zero to production—bringing founder-level ownership with tech-lead execution.
         </Subheading>
+        
+        {/* Core value props */}
+        <CoreBullets />
+        
+        {/* Social proof strip */}
+        <ProofStrip />
+        
+        {/* Audience routing */}
+        <AudienceRoutes />
+        
+        {/* Projects showcase */}
         <Projects projects={projects.slice(0, 3)} />
-        <LandingBlogs />
+        
+        {/* Experience timeline */}
         <Experiences experiences={experience} />
-        <Press />
+        
+        {/* Press/Authority section */}
+        <div id="press">
+          <Press />
+        </div>
+        
+        {/* Call to action */}
         <CTA />
       </Container>
     </div>
