@@ -8,52 +8,35 @@ export type Project = {
 
 export const projects: Project[] = [
     {
-      title: "Macbook Mockup",
+      title: "Yayzy",
       src: "https://aceternity.com/cdn-cgi/image/width=2048/https://assets.aceternity.com/macbook-scroll.png",
-      href: "#",
+      href: "https://apps.apple.com/gb/app/yayzy-co2-carbon-tracker/id1510781182",
       description:
-        "A mockup of a Macbook that showcases the product and its features",
-      stack: ["React", "Next.js", "Tailwind CSS"],
+        "Fintech app connecting 2,500+ banks via Open Banking APIs for automated carbon footprint tracking. Featured as Apple App of the Day.",
+      stack: ["Node.js", "React Native", "AWS", "Python ML", "Terraform"],
     },
-
     {
-      title: "Instant Feedback",
+      title: "Zebra Fuel",
       src: "https://aceternity.com/cdn-cgi/image/width=2048/https://assets.aceternity.com/animated-testimonials.webp",
-      description:
-        "An interactive feedback system that provides instant responses to user actions",
       href: "#",
-      stack: ["Vue", "Nuxt.js", "Tailwind CSS"],
+      description:
+        "On-demand fuel delivery platform with real-time routing and fleet management for 1000s of users and 70 business fleets.",
+      stack: ["React Native", "GraphQL", "Relay", "Node.js"],
     },
     {
-      title: "Apple Clone",
+      title: "City365",
       src: "https://aceternity.com/cdn-cgi/image/width=2048/https://assets.aceternity.com/apple-cards-carousel.png",
+      href: "https://www.zf.ro/business-hi-tech/patru-studenti-din-cluj-au-o-aplicatie-care-ajuta-restaurantele-sa-gaseasca-clienti-14770260",
       description:
-        "A clone of Apple's website that showcases their products and services",
-      href: "#",
-      stack: ["HTML5", "CSS3", "Tailwind CSS"],
+        "Hyper-local marketplace connecting restaurants with empty tables to students seeking deals. Scaled to tens of thousands of requests/sec.",
+      stack: ["Ionic", "Angular", "Node.js", "Azure"],
     },
     {
-      title: "Flight Simulator",
-      src: "https://aceternity.com/cdn-cgi/image/width=2048/https://assets.aceternity.com/background-lines.webp",
-      description:
-        "A flight simulator that allows you to experience the thrill of flying over any location.",
-      href: "#",
-    stack: ["React", "Three.js", "Tailwind CSS"],
-    },
-    {
-      title: "Portfolio Website",
+      title: "Clawdbot",
       src: "https://aceternity.com/cdn-cgi/image/width=2048/https://assets.aceternity.com/floating-dock.png",
+      href: "https://github.com/clawdbot/clawdbot",
       description:
-        "A modern portfolio website showcasing my projects and professional experience",
-      href: "#",
-      stack: ["React", "Next.js", "Tailwind CSS"],
-    },
-    {
-      title: "Blog Platform",
-      src: "https://aceternity.com/cdn-cgi/image/width=2048/https://assets.aceternity.com/hero-sections.webp",
-      description:
-        "A full-featured blog platform with markdown support and responsive design",
-      href: "#",
-      stack: ["React", "Next.js", "Tailwind CSS"],
+        "AI assistant infrastructure with multi-channel messaging, browser automation, and extensible skill system.",
+      stack: ["TypeScript", "Node.js", "LLM APIs", "Puppeteer"],
     },
   ];

@@ -6,9 +6,9 @@ import { Subheading } from "@/components/subheading";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Minimal Portfolio Website Template - Aceternity UI Pro",
+  title: "Contact | Cristian Dan",
   description:
-    "A perfect portfolio website template that showcases your skills, minimal and smooth microinteractions, perfect for developers and designers.",
+    "Get in touch for fintech, AI, or startup opportunities.",
 };
 
 export default function ContactPage() {
@@ -16,10 +16,9 @@ export default function ContactPage() {
     <div className="flex min-h-screen items-start justify-start">
       <Container className="min-h-screen px-4 md:px-8 md:pt-20 md:pb-10">
         <Scales />
-        <Heading>Contact Me</Heading>
+        <Heading>Get in Touch</Heading>
         <Subheading>
-          I'm open to freelancing offers. Reach out to me to inquire more about
-          my work.
+          Open to conversations about fintech, AI products, or startup opportunities. Let's build something together.
         </Subheading>
         <ContactForm />
       </Container>

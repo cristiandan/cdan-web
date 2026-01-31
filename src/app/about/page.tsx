@@ -8,9 +8,9 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "About | Minimal Portfolio Website Template - Aceternity UI Pro",
+  title: "About | Cristian Dan",
   description:
-    "A perfect portfolio website template that showcases your skills, minimal and smooth microinteractions, perfect for developers and designers.",
+    "Fintech founder and tech lead. Forbes 30 Under 30. Building secure, scalable systems that ship.",
 };
 
 export default function AboutPage() {
@@ -20,10 +20,7 @@ export default function AboutPage() {
         <Scales />
         <Heading>About Me</Heading>
         <Subheading>
-          I'm a passionate software engineer dedicated to crafting elegant
-          solutions for complex problems. With expertise in full-stack
-          development, I enjoy building user-centric applications that make a
-          difference.
+          Started bootstrapping in Romania, moved to London to scale startups, then co-founded Yayzy to solve hard data problems in fintech. Now focused on fintech infrastructure and AI product engineering—building systems that are secure, scalable, and actually ship.
         </Subheading>
 
         <Collage />

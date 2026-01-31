@@ -12,54 +12,44 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    company: "Google",
-    designation: "Senior Frontend Engineer",
+    company: "Yayzy",
+    designation: "Co-founder & CTO",
     logo: "/images/logos/google-logo.png",
-    description: "Led the development of key features for Google Cloud Platform's web console while improving performance metrics by 35%.",
-    startDate: "June 2020",
-    endDate: "Present",
-    location: "Mountain View, CA",
-    stack: ["React", "TypeScript", "Redux", "GraphQL", "Jest", "Cypress"]
+    description: "Built fintech infrastructure connecting 2,500+ banks via Open Banking APIs. Led team of 7 engineers, raised ~$1.5M. Featured as Apple App of the Day.",
+    startDate: "2019",
+    endDate: "2024",
+    location: "London, UK",
+    stack: ["Node.js", "React Native", "AWS", "Python", "Terraform", "PostgreSQL"]
   },
   {
-    company: "Microsoft",
-    designation: "Software Engineer",
-    logo: "/images/logos/microsoft-logo.png",
-    description: "Worked on the Microsoft Teams web application, implementing real-time collaboration features and UI components.",
-    startDate: "August 2018",
-    endDate: "May 2020",
-    location: "Redmond, WA",
-    stack: ["React", "JavaScript", "Azure", "WebRTC", "Webpack", "SASS"]
-  },
-  {
-    company: "Airbnb",
-    designation: "Frontend Developer",
+    company: "Zebra Fuel",
+    designation: "Senior Engineer / Mobile Lead",
     logo: "/images/logos/airbnb-logo.png",
-    description: "Developed and maintained core components of Airbnb's booking platform.",
-    startDate: "January 2017",
-    endDate: "July 2018",
-    location: "San Francisco, CA",
-    stack: ["React", "Redux", "Node.js", "Express", "MongoDB", "Styled Components"]
+    description: "Led mobile stack and dispatch logic for on-demand fuel delivery. Managed tech serving 1000s of users and 70 business fleets.",
+    startDate: "2018",
+    endDate: "2019",
+    location: "London, UK",
+    stack: ["React Native", "Redux", "GraphQL", "Relay", "Node.js", "Google Maps API"]
   },
   {
-    company: "Shopify",
-    designation: "Freelance Web Developer",
+    company: "Stint",
+    designation: "Lead Mobile Engineer",
+    logo: "/images/logos/microsoft-logo.png",
+    description: "Grew platform to 4k users, leading team of 6 engineers on workforce management mobile app.",
+    startDate: "2017",
+    endDate: "2018",
+    location: "London, UK",
+    stack: ["React Native", "Redux", "Node.js", "Express", "MongoDB"]
+  },
+  {
+    company: "City365",
+    designation: "Co-founder & Lead Developer",
     logo: "/images/logos/shopify-logo.png",
-    description: "Designed and developed custom Shopify themes for enterprise clients with optimized checkout flows.",
-    startDate: "March 2019",
-    endDate: "December 2019",
+    description: "Built hyper-local marketplace connecting restaurants with students. Scaled Azure backend to handle tens of thousands of requests/sec.",
+    startDate: "2015",
+    endDate: "2017",
     imageClass: "dark:filter dark:invert",
-    location: "Remote",
-    stack: [ "JavaScript", "HTML5", "CSS3", "SCSS", "Shopify API"]
-  },
-  {
-    company: "Adobe",
-    designation: "Freelance Frontend Consultant",
-    logo: "/images/logos/adobe-logo.png",
-    description: "Consulted on the redesign of Adobe's Creative Cloud web application.",
-    startDate: "September 2016",
-    endDate: "November 2016",
-    location: "Remote",
-    stack: ["HTML5", "JavaScript", "CSS3"]
+    location: "Cluj-Napoca, Romania",
+    stack: ["Ionic", "Angular", "Node.js", "Azure", "MongoDB"]
   }
-  ];
+];

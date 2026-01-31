@@ -13,9 +13,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Minimal Portfolio Website Template - Aceternity UI Pro",
+  title: "Cristian Dan | Fintech & AI Engineer",
   description:
-    "A perfect portfolio website template that showcases your skills, minimal and smooth microinteractions, perfect for developers and designers.",
+    "Fintech founder and tech lead. Building secure, scalable systems—from Open Banking infrastructure to AI products. Forbes 30 Under 30.",
 };
 
 export default function RootLayout({
