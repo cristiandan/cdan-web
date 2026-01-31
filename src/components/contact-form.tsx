@@ -78,7 +78,7 @@ export const ContactForm = () => {
             name="email"
             onChange={handleChange}
             type="text"
-            placeholder="tyler@projectmayhem.com"
+            placeholder="your@email.com"
             className="focus:ring-primary rounded-md px-2 py-2 text-sm shadow-[var(--shadow-aceternity)] focus:ring-2 focus:outline-none"
           />
         </div>

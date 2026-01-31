@@ -56,7 +56,7 @@ const MobileNavbar = ({
           <Link href="/">
             <Image
               className="h-8 w-8 rounded-full"
-              src="/avatar.webp"
+              src="/avatar.jpg"
               height="80"
               width="80"
               alt="Avatar"
@@ -189,7 +189,7 @@ const DesktopNavbar = ({
             <div className="relative overflow-hidden rounded-full">
               <Image
                 className="h-10 w-10 rounded-full"
-                src="/avatar.webp"
+                src="/avatar.jpg"
                 height="100"
                 width="100"
                 alt="Avatar"
